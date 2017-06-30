@@ -1,0 +1,19 @@
+extends ../include/layout
+
+block main-content
+    .navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                a.navbar-brand(href"/") Playtube
+                h6 MEANSTACK Training
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                    a(href='/') Home
+
+
+
+    section.content
+
+        div(ng-view)
+    h2= mongomessage
